@@ -1,0 +1,1 @@
+.header__wprapper .header__logo:after{width:210px;animation:line1 1s forwards;-webkit-animation:line1 1s forwards}@-webkit-keyframes line1{0%{width:0}to{width:210px}}

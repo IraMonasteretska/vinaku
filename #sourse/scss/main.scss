@@ -914,6 +914,765 @@ body.hidden {
 
 
 
+// height
+@media(max-height:750px) {
+    .welcomescreen__text {
+        top: 170px;
+    }
+
+    .welcomescreen__text h1 {
+        font-size: 46px;
+        line-height: 130%;
+        margin-bottom: 20px;
+    }
+
+    .welcomescreen__text p {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-height:650px) {
+    .welcomescreen__text {
+        top: 130px;
+    }
+}
+
+// width
+@media(max-width:1400.8px) {
+
+    .welcomescreen__text {
+        max-width: 520px;
+    }
+
+    .carouseltitles .swiper .swiper-slide span {
+        width: 100%;
+    }
+
+    .carouseltitles .swiper {
+        padding-left: 20px;
+    }
+
+    .welcto {
+        padding: 100px 50px;
+    }
+
+    .welcto .leftsect {
+        padding-left: 100px;
+    }
+
+    .services {
+        padding-left: 110px;
+    }
+
+    .servleft__title {
+        padding: 50px 40px 50px 40px;
+    }
+
+    .services__wrapper {
+        padding-right: 50px;
+    }
+
+    .servright__row .servright__col {
+        max-width: calc(50% - 15px);
+        flex: 0 0 calc(50% - 15px);
+    }
+
+    .servright {
+        padding: 50px 0 30px 50px;
+    }
+
+    .servleft__descr {
+        padding: 50px 40px 20px 40px;
+    }
+
+    .servbox h6 {
+        font-size: 16px;
+        max-width: 80%;
+    }
+
+    .aboutus {
+        padding: 100px 50px;
+    }
+
+    .aboutus .aboutus__left {
+        padding-left: 100px;
+    }
+
+    .aboutus .aboutus__right {
+        padding-left: 50px;
+    }
+
+    .contacts {
+        padding-left: 110px;
+        padding-bottom: 100px;
+    }
+
+    .contacts__left .contacts__titlebox {
+        padding: 30px 30px 30px 40px;
+    }
+
+    .contacts__left {
+        padding-top: 40px;
+    }
+
+    .contacts__right {
+        padding: 70px 50px 50px 70px;
+    }
+
+    .contacts__left .contacts__socboxleft {
+        padding: 60px 30px 60px 40px;
+    }
+
+    .contacts__left .contacts__socboxleft .soclist li {
+        margin-right: 10px;
+    }
+
+    .contacts__left .contacts__socboxright {
+        padding: 60px 30px 60px 35px;
+    }
+
+    .contacts__right h3 {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .carouseltitles {
+        padding-right: 50px;
+    }
+
+    .welcomescreen__text h1 {
+        font-size: 44px;
+    }
+
+    .welcto .leftsect h1,
+    .welcto .leftsect h2,
+    .servleft__title h3,
+    .aboutus .aboutus__left h3,
+    .contacts__left .contacts__titlebox h3 {
+        font-size: 38px;
+    }
+
+    .welcomescreen__text p,
+    .welcto .rightsect p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1199.8px) {
+    .carouseltitles {
+        padding-right: 0;
+    }
+
+    .servleft {
+        max-width: 300px;
+        flex: 0 0 300px;
+    }
+
+    .servright {
+        max-width: calc(100% - 300px);
+        flex: calc(100% - 300px);
+    }
+
+    .servbox .servbox__lines:after {
+        left: 10px;
+    }
+
+    .servbox .servbox__lines:before {
+        bottom: 10px;
+    }
+
+    .servbox h6 {
+        font-size: 14px;
+        max-width: 80%;
+        margin: 0 0 15px 20px;
+    }
+
+    .aboutus .aboutus__right {
+        padding-left: 20px;
+    }
+
+    .aboutusbox:after {
+        width: 40px;
+        height: 25px;
+    }
+
+    .aboutusbox__descr p {
+        font-size: 15px;
+    }
+
+    .contacts__right h3 {
+        font-size: 26px;
+    }
+
+    .contacts__right {
+        padding: 70px 50px 50px 50px;
+    }
+
+    .welcomescreen:before {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 96px;
+        background: rgba(255,255,255,0.35);
+        position: absolute;
+        top: 0;
+        left: 210px;
+        z-index: 13;
+
+        height: 96px;
+        min-height: initial;
+    }
+
+    .welcomescreen:after {
+        display: none;
+    }
+
+
+    .aboutus .aboutus__left h3,
+    .contacts__left .contacts__titlebox h3,
+    .servleft__title h3,
+    .welcto .leftsect h1,
+    .welcto .leftsect h2 {
+        font-size: 32px;
+    }
+
+}
+
+@media(max-width: 991.8px) {
+    .welcomescreen:after {
+        height: 96px;
+        min-height: initial;
+    }
+
+    .welcomescreen__text {
+        left: 100px;
+        top: 280px;
+    }
+
+    .carouselmain:after {
+        width: 100%;
+        background: linear-gradient(89.78deg, rgba(0, 0, 0, 0.6) 1.33%, rgba(0, 0, 1, 0.6) 22.31%, rgba(0, 1, 2, 0.588) 47.5%, rgba(0, 0, 0, 0) 99.83%);
+    }
+
+    .carouseltitles>span {
+        &::after {
+            content: "";
+            display: inline-block;
+            width: 1px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.35);
+            position: absolute;
+            top: 0;
+            left: 210px;
+            z-index: 13;
+        }
+    }
+
+    .welcomescreen,
+    .carouselmain .swiper-slide,
+    .carouselmain:after {
+        min-height: 850px;
+    }
+
+    .welcto {
+        padding: 70px 50px;
+    }
+
+    .showmob {
+        display: block;
+    }
+
+    .welcto .leftsect {
+        p {
+            display: none;
+        }
+
+        .bluebtn {
+            display: none;
+        }
+    }
+
+    .servleft:after {
+        display: none;
+    }
+
+    .servleft {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .services__wrapper {
+        padding-right: 0;
+    }
+
+    .servleft__descr {
+        position: relative;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.35);
+        }
+    }
+
+    .servleft__descr {
+        padding: 40px;
+    }
+
+    .servleft__title {
+        padding: 30px 40px;
+    }
+
+    .servright {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-right: 50px;
+    }
+
+    .aboutus .aboutus__left,
+    .aboutus .aboutus__right {
+        padding-left: 0;
+    }
+
+    .aboutus {
+        padding: 70px 50px;
+    }
+
+    .aboutus .aboutus__left {
+        margin-bottom: 40px;
+    }
+
+    .aboutus .aboutus__left h3:after {
+        display: none;
+    }
+
+    .contacts {
+        padding-left: 50px;
+    }
+
+    .contacts__left,
+    .contacts__right {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .contacts__socbox {
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            width: calc(100% - 40px);
+            height: 1px;
+            position: absolute;
+            left: 20px;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.35);
+        }
+    }
+
+    .contacts__left .contacts__socboxleft .soclist {
+        margin: 100px 0 0 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .services {
+        padding-left: 50px;
+    }
+
+    .welcto .leftsect {
+        padding-left: 0;
+    }
+
+    .aboutus .aboutus__left h3,
+    .contacts__left .contacts__titlebox h3,
+    .servleft__title h3,
+    .welcto .leftsect h1,
+    .welcto .leftsect h2 {
+        font-size: 36px;
+    }
+
+
+}
+
+@media(max-width: 767.8px) {
+
+    .welcomescreen__text {
+        left: 0;
+        width: 100%;
+        padding: 0 50px;
+        top: 250px;
+    }
+
+    .welcomescreen__text h1 {
+        font-size: 38px;
+    }
+
+    .servright__row .servright__col {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .servright {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .servbox h6 {
+        font-size: 16px;
+    }
+
+
+
+
+}
+
+@media(max-width:575.8px) {
+    .welcomescreen:before {
+        left: 115px;
+    }
+
+    .welcomescreen__text {
+        top: 230px;
+        padding: 0 12px;
+    }
+
+    .welcomescreen__text h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .welcomescreen__text p {
+        margin-bottom: 40px;
+    }
+
+    .carouseltitles span {
+        width: 100%;
+        max-width: 115px;
+        flex: 0 0 115px;
+        font-size: 12px;
+        height: 92px;
+
+        &::after {
+            left: initial;
+            right: 0;
+        }
+    }
+
+    .carouseltitles .swiper {
+        width: 100%;
+        max-width: calc(100% - 115px);
+        flex: 0 0 calc(100% - 115px);
+    }
+
+    .carouseltitles .swiper .swiper-slide span {
+        font-size: 10px;
+    }
+
+    .welcomesocial {
+        bottom: 92px;
+        width: 160px;
+    }
+
+    .carouselmain .swiper-slide,
+    .carouselmain:after,
+    .welcomescreen {
+        min-height: 650px;
+    }
+
+    .welcto {
+        padding: 50px 12px 69px;
+    }
+
+    .rightsect .showmob {
+        margin-top: 25px;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    .welcto .bluebtn {
+        width: 100%;
+        justify-content: center;
+
+        span {
+            position: relative;
+            padding-right: 40px;
+
+            img {
+                top: 2px;
+                right: 0;
+            }
+        }
+    }
+
+    .servleft__title {
+        padding: 25px 12px 25px 30px;
+    }
+
+    .servleft__descr {
+        padding: 25px 12px 25px 30px;
+    }
+
+    .servright {
+        padding: 20px 12px 25px 30px;
+    }
+
+    .servbox .servbox__lines:after {
+        left: 20px;
+    }
+
+    .servbox .servbox__lines:before {
+        bottom: 20px;
+    }
+
+    .servbox h6 {
+        margin: 0 0 25px 30px;
+        font-size: 15px;
+    }
+
+
+    .aboutus {
+        padding: 63px 12px 98px;
+    }
+
+    .aboutus .aboutus__left h3 {
+        padding-right: 0;
+    }
+
+    .aboutus .aboutus__left p {
+        margin-bottom: 35px;
+    }
+
+    .aboutus__left .bluebtn {
+        width: 100%;
+        justify-content: center;
+
+        span {
+            position: relative;
+            padding-right: 40px;
+
+            img {
+                top: 2px;
+                right: 0;
+            }
+        }
+    }
+
+    .aboutus .aboutus__left {
+        margin-bottom: 48px;
+    }
+
+    .aboutusbox {
+        padding: 25px 30px;
+    }
+
+    .aboutusbox__header .aboutusbox__ava {
+        max-width: 35px;
+        flex: 0 0 35px;
+        height: 35px;
+    }
+
+    .aboutusbox__header .aboutusbox__name {
+        max-width: calc(100% - 35px);
+        flex: 0 0 calc(100% - 35px);
+    }
+
+    .aboutusbox__header .aboutusbox__name p {
+        font-size: 12px;
+    }
+
+    .aboutusbox__descr p {
+        font-size: 14px;
+    }
+
+    .aboutusbox {
+        margin-bottom: 38px;
+    }
+
+    .aboutus {
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+            height: 3px;
+            width: 49px;
+            background: url('../img/line.png') no-repeat center / 100% 100%;
+            position: absolute;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            bottom: 70px;
+        }
+    }
+
+    .contacts {
+        padding-left: 22px;
+    }
+
+    .contacts__left .contacts__titlebox {
+        width: calc(100% + 10px);
+        margin-left: -10px;
+        padding: 25px 12px 25px 30px;
+    }
+
+    .contacts__left .contacts__titlebox h3 {
+        margin-bottom: 10px;
+    }
+
+    .contacts__left .contacts__socboxleft {
+        padding: 20px 12px 12px 20px;
+    }
+
+    .contacts__socbox {
+        .col-6 {
+            &:nth-child(1) {
+                width: 56%;
+            }
+
+            &:nth-child(2) {
+                width: 44%;
+            }
+        }
+    }
+
+    .contacts__left .contacts__socboxleft .soclist {
+        margin-top: 107px;
+    }
+
+    .contacts__left .contacts__socboxright {
+        padding: 66px 15px 53px 35px;
+    }
+
+    .contacts__left:after {
+        display: none;
+    }
+
+    .contacts__right h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contacts__right {
+        padding: 50px 20px 59px 20px;
+    }
+
+    .contform input {
+        height: 37px;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .contform textarea {
+        font-size: 13px;
+        margin-bottom: 35px;
+        margin-top: 10px;
+    }
+
+    .contacts {
+        padding-bottom: 46px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .services {
+        padding-left: 12px;
+    }
+
+    .welcto .rightsect p {
+        font-size: 15px;
+    }
+
+    .welcto .leftsect h2 {
+        margin-bottom: 25px;
+    }
+
+    .aboutus .aboutus__left h3,
+    .contacts__left .contacts__titlebox h3,
+    .servleft__title h3,
+    .welcto .leftsect h1,
+    .welcto .leftsect h2 {
+        font-size: 35px;
+    }
+
+    .servleft__descr p,
+    .aboutus .aboutus__left p,
+    .contacts__left .contacts__titlebox p {
+        font-size: 14px;
+    }
+
+    .contform .bluebtn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        span {
+            position: relative;
+            padding-right: 40px;
+
+            img {
+                top: 2px;
+                right: 0;
+            }
+        }
+    }
+
+
+}
+
+@media(max-width:374px) {
+
+    .carouselmain .swiper-slide,
+    .carouselmain:after,
+    .welcomescreen {
+        min-height: 700px;
+    }
+}
+
+
+
+
+
 
 
 

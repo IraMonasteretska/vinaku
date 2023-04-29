@@ -37,6 +37,11 @@ $(document).ready(function () {
     thumbs: {
       swiper: swiper,
     },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false
+    },
+    loop: true,
   });
 
 
@@ -69,7 +74,6 @@ $(document).ready(function () {
     }
   });
 
-
   if ($(window).width() < 1200) {
     $('.sublink').click(function () {
       $(this).toggleClass('active');
@@ -88,36 +92,40 @@ $(document).ready(function () {
 
 
 
+  $(window).on('scroll', function() {
+    var scrollTop = $(this).scrollTop();
+    var windowHeight = $(this).height();
+    var servicesOffset = $('#services').offset().top;
+    
+    if (scrollTop > servicesOffset - (windowHeight * 0.3)) {
+      $('#services').addClass('active');
+    } else {
+    }
+  });
 
+  $(window).on('scroll', function() {
+    var scrollTop = $(this).scrollTop();
+    var windowHeight = $(this).height();
+    var servicesOffset = $('#contacts').offset().top;
+    
+    if (scrollTop > servicesOffset - (windowHeight * 0.4)) {
+      $('#contacts').addClass('active');
+    } else {
+    }
+  });
 
-
-
-
-
-  //       var windowWidth = $(document).width(),
-  //       containerWidth = $('.container').width(),
-  //       paddingContainer = ((windowWidth - containerWidth) / 2)
-  //   // right
-  //   $('.celebrity-luxury, .genslsect, .articlesect__header').css('padding-right', paddingContainer)
-  //   // left
-  //   $('.spaceleft-container, .genslsect-container, .ournews-slider, .articlesect__headercontain').css('padding-left', paddingContainer);
-
-
-  //   $(window).resize(function () {
-  //       var windowWidth = $(document).width(),
-  //           containerWidth = $('.container').width(),
-  //           paddingContainer = ((windowWidth - containerWidth) / 2)
-  //       // right
-  //       $('.celebrity-luxury, .genslsect, .articlesect__header').css('padding-right', paddingContainer)
-  //       // left
-  //       $('.spaceleft-container, .genslsect-container, .articlesect__headercontain').css('padding-left', paddingContainer);
-  //   });
-
-
-
-
-
-
+  $(window).on('scroll', function() {
+    var scrollTop = $(this).scrollTop();
+    var windowHeight = $(this).height();
+    var servicesOffset = $('footer').offset().top;
+    
+    if (scrollTop > servicesOffset - (windowHeight * 0.8)) {
+      $('footer').addClass('active');
+    } else {
+    }
+  });
+  
+  
 
 
 
